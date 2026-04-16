@@ -28,6 +28,17 @@ Covers foundational and intermediate programming techniques including data extra
 
 ---
 
+### 3. [Recipe Heaven — Web Application](https://github.com/isataja/Recipe_Heaven) &nbsp;|&nbsp; [▶ Watch Demo](https://www.youtube.com/watch?v=RXd6LoZ6dHc&t=1s)
+A full-stack web application built as a group exam project (team of 3). Users can register, log in/out, create and browse recipes, like and comment on recipes, and save favourites.
+
+- **Backend** — Django (Python), SQLite database
+- **Frontend** — HTML, CSS, with Django templating
+- **Features** — User authentication, CRUD operations for recipes, social interactions (likes, comments, favourites)
+
+**Skills:** `Django` · `Python` · `HTML` · `CSS` · `SQLite` · Full-stack development · User authentication · Database modelling
+
+---
+
 ## 🛠️ Tech Stack
 
 | Category | Tools |
