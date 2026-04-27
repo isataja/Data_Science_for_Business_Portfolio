@@ -39,13 +39,14 @@ A full-stack web application built as a group exam project (team of 3). Users ca
 
 ---
 
-### 4. Current Project: Quantitative Economics Group Exam 
+### 4. [Quantitative Economics Group – Exam](./PSO_Network.ipynb) 
 **Norwegian Regional Aviation & PSO Subsidies — Quantitative Welfare Analysis**
 
-Group exam modelling Norwegian domestic aviation as a policy question: 
-*as fuel and carbon prices rise, which routes survive and what subsidies are needed to keep remote communities connected?*
+Group exam modelling Norwegian domestic aviation as a policy question: *as fuel and carbon prices rise, which routes survive and what subsidies are needed to keep remote communities connected?*
 
-Three airlines (SAS, Norwegian, Widerøe) compete across a seven-route network. Trunk routes are solved as Cournot duopolies with exit logic — airlines drop out as costs rise, triggering monopoly regime shifts. A BFS connectivity graph tracks whether thin airports remain reachable as routes fail, and scipy.optimize.brentq finds the minimum PSO subsidy to restore viability at any fuel price. **An interactive dashboard lets the user vary fuel price, carbon price, and subsidies in real time.**
+Three airlines (SAS, Norwegian, Widerøe) compete across an eight-route, eight-airport network. Trunk routes are solved as Cournot duopolies with exit logic; a BFS graph tracks thin airport connectivity as routes fail; and `scipy.optimize.brentq` finds the minimum PSO subsidy to restore viability at any price level. 
+
+- **Key finding** is that carbon pricing hits remote communities disproportionately, as costs scale linearly with distance. An interactive `ipywidgets` dashboard lets the user vary fuel price, carbon price, and per-route subsidies in real time.
 
 **Skills:** `Python` · `NumPy` · `SciPy` · `Matplotlib` · `ipywidgets`
 
