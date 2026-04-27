@@ -46,7 +46,7 @@ Group exam modelling Norwegian domestic aviation as a policy question: *as fuel 
 
 Three airlines (SAS, Norwegian, Widerøe) compete across an eight-route, eight-airport network. Trunk routes are solved as Cournot duopolies with exit logic; a BFS graph tracks thin airport connectivity as routes fail; and `scipy.optimize.brentq` finds the minimum PSO subsidy to restore viability at any price level. 
 
-- **Key finding** is that carbon pricing hits remote communities disproportionately, as costs scale linearly with distance. An interactive `ipywidgets` dashboard lets the user vary fuel price, carbon price, and per-route subsidies in real time.
+**Key finding** – carbon pricing hits remote communities disproportionately, as costs scale linearly with distance. An interactive `ipywidgets` dashboard lets the user vary fuel price, carbon price, and per-route subsidies in real time.
 
 **Skills:** `Python` · `NumPy` · `SciPy` · `Matplotlib` · `ipywidgets`
 
